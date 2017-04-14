@@ -27,7 +27,7 @@ services:
 
   # A simple java CLI
   client:
-    image: devop/tcf-client
+    image: devops/tcf-client
     container_name: tcf_client
     command: "tcf_system 8080"
     volumes:
