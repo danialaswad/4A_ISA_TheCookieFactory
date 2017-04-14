@@ -9,7 +9,7 @@ cp ./target/tcf-backend.war ../docker/tcf/.
 
 # building the docker image
 cd ../docker/tcf/
-docker build -t petitroll/tcf-int .
+docker build -t devops/tcf-int .
 
 # cleaning up the environment
 rm -rf tcf-backend.war

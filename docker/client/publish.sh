@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker push petitroll/tcf-client
+docker push devops/tcf-client

@@ -1,5 +1,5 @@
 FROM tomee:8-jdk-7.0.1-plus
-MAINTAINER Sébastien Mosser (mosser@i3s.unice.fr)
+MAINTAINER DevOps G2
 
 # Working inside the local TomEE system
 WORKDIR /usr/local/tomee/

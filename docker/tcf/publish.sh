@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker push petitroll/tcf-int
+docker push devops/tcf-int

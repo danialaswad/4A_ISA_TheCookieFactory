@@ -7,7 +7,7 @@ cp ./server.exe ../docker/partners/.
 
 # building the docker image
 cd ../docker/partners/
-docker build -t petitroll/tcf-ext .
+docker build -t devops/tcf-ext .
 
 # cleaning up the environment
 rm -rf server.exe

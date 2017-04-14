@@ -4,7 +4,7 @@ services:
 
   # The Cookie on Demand service, a J2E system
   tcf_system:
-    image: petitroll/tcf-int
+    image: devops/tcf-int
     container_name: tcf_system
     environment:
       - bank_host=tcf_partners
@@ -18,7 +18,7 @@ services:
 
   # The external partners, implemented as .Net services
   external_partners:
-    image: petitroll/tcf-ext
+    image: devops/tcf-ext
     container_name: tcf_partners
     expose:
         - "9090"
@@ -27,7 +27,7 @@ services:
 
   # A simple java CLI
   client:
-    image: petitroll/tcf-client
+    image: devop/tcf-client
     container_name: tcf_client
     command: "tcf_system 8080"
     volumes:
