@@ -1,5 +1,5 @@
 FROM openjdk:8
-MAINTAINER DevOps G2
+MAINTAINER Sébastien Mosser (mosser@i3s.unice.fr)
 
 # Loading the executable server inside the image
 COPY ./tcf-client-1.0-SNAPSHOT-jar-with-dependencies.jar ./tcf-client.jar

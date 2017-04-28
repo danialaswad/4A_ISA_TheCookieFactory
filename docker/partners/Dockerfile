@@ -1,5 +1,5 @@
 FROM mono:3.10
-MAINTAINER DevOps G2
+MAINTAINER Sébastien Mosser (mosser@i3s.unice.fr)
 
 # Loading the executable server inside the image
 COPY ./server.exe ./server.exe
